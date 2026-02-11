@@ -13,9 +13,9 @@ spec:
         resolver: git
         params:
           - name: url
-            value: https://github.com/redhat-appstudio/tssc-cli.git
+            value: https://github.com/chetna14manku/tssc-cli.git
           - name: revision
-            value: main
+            value: cleanup-job
           - name: pathInRepo
             value: integration-tests/tasks/download-and-execute-cleanup.yaml
       matrix:

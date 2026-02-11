@@ -55,4 +55,4 @@ spec:
         chmod +x /tmp/script.sh
 
         echo "Executing script..."
-        /tmp/script.sh
+        /tmp/script.sh --dry-run
