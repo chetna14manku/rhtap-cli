@@ -12,11 +12,11 @@ spec:
       description: The script path in the source git repo where script is located
     - name: source-git-repo
       type: string
-      default: "redhat-appstudio/tssc-cli"
+      default: "chetna14manku/tssc-cli"
       description: Git repository in format owner/repo where script is located
     - name: source-git-revision
       type: string
-      default: "main"
+      default: "test-cleanup"
       description: Git branch or revision where script is located
   volumes:
     - name: tssc-cli-volume
@@ -74,4 +74,4 @@ spec:
         chmod +x /tmp/script.sh
 
         echo "Executing script..."
-        /tmp/script.sh
+        /tmp/script.sh --dry-run
